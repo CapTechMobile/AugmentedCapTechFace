@@ -1,5 +1,5 @@
 
-##ARCore - Augmented Faces
+## ARCore - Augmented Faces
 
 This is a demo application of Augmented Faces within Sceneform. The purpose of this demo is to demonstrate the simplicity of added AR to your application by adding textures, 2D Images, or 3D images to your application. This application adds a 2D ImageView (a light bulb) that floats above the user's head. Lastly, it adds a png texture to the user's face for a little blush and freckles. 
 
