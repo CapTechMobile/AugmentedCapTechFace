@@ -3,6 +3,10 @@
 
 This is a demo application of Augmented Faces within Sceneform. The purpose of this demo is to demonstrate the simplicity of added AR to your application by adding textures, 2D Images, or 3D images to your application. This application adds a 2D ImageView (a light bulb) that floats above the user's head. Lastly, it adds a png texture to the user's face for a little blush and freckles. 
 
+<img src="content/aug-face-mesh-example.png" alt="drawing" width="200"/>
+
+In order for ARCore to properly overlay textures and 3D/2D models on a detected face, ARCore provides detected regions and an augmented face mesh. This mesh is a virtual representation of the face, and consists of the vertices, facial regions, and the center of the user's head (typically right behind the user's nose).  The center of the user's face and the mesh can be visualized in the image above. 
+
 <img src="content/augmented_face_1.gif" alt="drawing" width="200"/>
 <img src="content/augmented_face_2.gif" alt="drawing" width="200"/>
 
